@@ -1,0 +1,30 @@
+.todoList {
+
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            justify-content: center;
+            align-items: space-between;
+            border: 1px solid #999;
+            width: 15%;
+            margin-bottom: 1px;
+}
+
+.todoList p {
+
+            display: flex;
+            justify-content: space-between;
+}
+
+.todoList p h1 {
+            font-size: 2rem;
+            font-weight: 400;
+            text-transform: capitalize;
+}
+
+.todoList span {
+            font-size: 1.8rem;
+            color: red;
+            cursor: pointer;
+}
